@@ -6,13 +6,11 @@ O **Flap-Bird-NEFT** é um projeto de treinamento de redes neurais por neuroevol
 
 O projeto é voltado para estudantes e pessoas desenvolvedoras que querem acompanhar, no código, como funcionam uma rede neural feedforward e um ciclo evolutivo com especiação sem depender de frameworks de aprendizado profundo. Toda a matemática da rede é implementada diretamente sobre arrays e multiplicações matriciais.
 
-![Janela do Pygame mostrando a simulação do Flap-Bird-NEFT com os agentes em quadrados coloridos, linhas de visão conectadas às bordas do próximo cano e o chão ao fundo]([caminho/para/imagem.png])
-
-*(Nota: substitua `[caminho/para/imagem.png]` pelo caminho da imagem no repositório — por exemplo, `assets/simulacao.png` após salvar o arquivo no projeto — ou arraste a captura de tela diretamente para o editor do GitHub ao editar o `README.md`.)*
+![Janela do Pygame mostrando a simulação do Flap-Bird-NEFT com os agentes em quadrados coloridos, linhas de visão conectadas às bordas do próximo cano e o chão ao fundo](assets/imagem.png)
 
 ## Tecnologias utilizadas
 
-- **Python 3.12:** linguagem usada no desenvolvimento do projeto *(confirme e preencha `[versão mínima compatível]` caso o projeto também rode em versões anteriores)*.
+- **Python 3.12:** linguagem usada no desenvolvimento do projeto 
 - **Pygame:** gerenciamento da janela (`550x720`), loop de jogo a 60 FPS, detecção de colisões e renderização dos pássaros, canos, chão e linhas de visão dos agentes.
 - **NumPy:** operações matriciais das camadas densas, funções de ativação, cálculo de distâncias euclidianas dos sensores e aplicação de mutações nos pesos.
 
@@ -20,7 +18,7 @@ O projeto é voltado para estudantes e pessoas desenvolvedoras que querem acompa
 
 ### Pré-requisitos
 
-- Python `3.12` (ou `[versão mínima compatível]`)
+- Python `3.12` 
 - `pip`
 - Git
 
@@ -130,9 +128,3 @@ git checkout -b [prefixo/descricao-curta, ex: fix/colisao-cano]
    - Mantenha o projeto restrito às dependências `pygame` e `numpy`, salvo alinhamento prévio em issue.
    - O repositório ainda não possui suíte de testes automatizados; antes de abrir um PR, execute `python main.py` localmente para confirmar que o loop da simulação e a transição entre gerações continuam funcionando sem erros (ou rode `[comando de testes, caso venha a ser adicionado]`).
 5. **Pull Request:** abra o PR descrevendo o que foi alterado, o motivo da mudança e referenciando a issue correspondente, se houver.
-
-## Licença
-
-Este projeto está licenciado sob a licença **[Nome da Licença, ex: MIT]**. O texto completo está disponível no arquivo `[LICENSE]` na raiz do repositório.
-
-*(Nota: o repositório ainda não possui um arquivo de licença; adicione o arquivo `LICENSE` no GitHub e atualize esta seção com a licença escolhida.)*
