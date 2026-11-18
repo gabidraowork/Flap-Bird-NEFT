@@ -109,7 +109,7 @@ Flap-Bird-NEFT/
     └── softmax.py      # Ativação Softmax
 ```
 
-*(Nota: caso salve a captura de tela em uma pasta como `assets/`, inclua essa pasta na árvore acima. O repositório também contém pastas `__pycache__/` versionadas atualmente; considere adicionar um `.gitignore` para removê-las do controle de versão.)*
+
 
 ## Contribuições
 
