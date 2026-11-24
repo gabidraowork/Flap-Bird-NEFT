@@ -73,6 +73,8 @@ python main.py
 
 - Ao iniciar, uma janela do Pygame é aberta exibindo os 200 agentes da geração atual (quadrados coloridos) com linhas ligando cada pássaro ao próximo cano e ao chão.
 - Cada agente recebe 4 entradas normalizadas (distância ao cano superior, distância ao cano inferior, distância ao chão e velocidade vertical) somadas a um termo de bias, passando por uma rede `5 -> 2 -> 1` com ativação `Sigmoid`. Quando a saída é maior ou igual a `0.75`, o pássaro salta.
+![Imagem monstrando a estrutura da rede neural](assets/rede_neural.png)
+
 - Quando todos os agentes da geração colidem com o chão ou com os canos, o loop limpa os obstáculos, executa a seleção natural e exibe no terminal as etapas de transição para a próxima geração:
 
 ```text
